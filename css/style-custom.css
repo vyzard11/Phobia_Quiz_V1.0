@@ -1,0 +1,449 @@
+/*@font-face {
+  font-family: Comix Loud;
+  src: url(../fonts/Showcard-Gothic.ttf);
+}   */
+
+@font-face {
+  font-family: Ravie;
+}   
+
+ html{
+	text-shadow: 1px 2px 3px #3e1919;
+	}
+.splashScreen{
+	position:fixed;
+	width:100%;
+	height:100%;
+	background:#000000;
+	
+}
+#wrapper{
+	position:relative;
+	min-height:768px;
+	overflow:hidden;
+}
+
+#page-wrapper{
+	background:none;
+}
+.mainBg{
+	background-image:url('img/phobia-bg.png');
+	background-attachment:fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+
+.topDark{
+	position:fixed;
+	top:0;
+	left:0;
+	width:50%;
+	height:50%;
+	background:#ffffff;
+	
+	clear:both;
+}
+.bottomDark{
+	position:fixed;
+	bottom:0;
+	right:0;
+	width:50%;
+	height:50%;
+	background:#ffffff;
+	
+}
+
+
+.centerThis{
+
+}
+
+.panel-board p{
+	font-size:3em;
+	font-family: Calibri;
+	text-shadow: 1px 2px 3px #3e1919;
+	
+}
+
+.modalDarkBg{
+	position:fixed;
+	width:100%;
+	height:100%;
+	/*background:url("img/bg_dark.png");*/
+	top:0;
+	
+}
+.readySetGo{
+	position:fixed;
+	width:50%;
+	top:30%;
+	left:20%;
+	text-align:center;
+	font-family: Ravie;
+}
+.btn-primary{
+
+	background:#ffff00;
+	border:none;
+	  -moz-box-shadow:    5px 5px 20px 1px  #c77306;
+	  -webkit-box-shadow:   5px 5px 20px 1px  #c77306;
+	  box-shadow:          4px 4px 0px 1px  #c77306;
+
+}
+.btn-primary:hover,.btn-primary:focus{
+	
+	background:#ff9000;
+	
+	
+}
+.btn{
+	text-shadow: 2px 3px 0px #c77306;
+
+/*	padding:10px;
+	padding-top:14px; */
+
+}
+
+.btn-warning{
+	background:#ff9000;
+	border:none;
+	  -moz-box-shadow:    5px 5px 20px 1px  #c77306;
+	  -webkit-box-shadow:   5px 5px 20px 1px  #c77306;
+	  box-shadow:          4px 4px 0px 1px  #c77306;
+	  
+}
+
+.btn-warning:hover,.btn-warning:focus{
+	
+	background:#ffff00;
+	
+	}
+#gameTimer{
+	text-align:center;
+	background:none;
+	border:0;
+	color:#ffff00;
+	font-size:2.5em;
+	min-height:2.5em;
+	overflow:visible;
+	box-shadow:none;
+	text-shadow: 4px 5px 0px #832012;
+	
+}
+
+.btn_close{
+	position:absolute;right:-50px;top:-60px;
+	z-index:999999;
+}
+#score{
+	text-align:left;
+	background:none;
+	border:0;
+	color:#ffff00;
+	font-size:1.5em;
+	overflow:visible;
+	box-shadow:none;
+	text-shadow: 4px 5px 0px #832012;
+}
+#scorelbl{
+	text-align:left;
+	background:none;
+	border:0;
+	color:#ffff00;
+	font-size:1.5em;
+	overflow:visible;
+	box-shadow:none;
+	text-shadow: 4px 5px 0px #832012;
+}
+
+#main-game .panel-board{
+	background:#c77306;
+	border:#ffff00 solid 8px;
+	min-height:200px;
+	color:#ffffff;
+	font-family: Berlin Sans FB Demi;
+	text-shadow: 0px 0px 0px #832012;
+	text-align:center;
+}
+
+.board .panel-board, .board-modal .panel-board {
+	background:#c77306;
+	border:#ffff00 solid 8px;
+	color:#ffffff;
+	font-family: Comic Sans MS;
+	text-shadow: 0px 0px 0px #832012;
+	text-align:center;
+
+}
+.board .btn, .board-modal .btn{
+	-moz-box-shadow:    5px 5px 20px 1px  #c77306;
+	  -webkit-box-shadow:   5px 5px 20px 1px  #c77306;
+	  box-shadow:          4px 4px 0px 1px  #c77306;
+
+}
+.board .btn:hover{
+	-moz-box-shadow:    5px 5px 20px 1px  #c77306;
+	  -webkit-box-shadow:   5px 5px 20px 1px  #c77306;
+	  box-shadow:          4px 4px 0px 1px  #c77306;
+
+
+}
+.board{
+	font-family: Comic Sans MS;
+}
+
+
+
+
+#wrapper{
+	margin:0 0;
+	padding:4%;
+	
+	overflow:hidden;
+
+}
+		
+		
+.windowContainer{
+	margin:0 20px;
+	
+}
+#wrapper{
+	z-index:9;
+}
+#main-menu{
+	z-index:10;
+}
+#main-game{
+	z-index:10;
+}
+.modalDarkBg{
+	z-index:11;
+}
+
+#splashScreen, .splashScreen{
+	z-index:12;
+
+}
+#board{
+	z-index:1231321;
+}
+
+
+.splashImages{
+		margin-top:20%;
+	}
+/* for tablet*/
+#page-wrapper,#page-wrapper2,#page-wrapper3,#page-wrapper4{
+	margin-top:3%;
+	
+}
+
+
+/* special START*/
+.borderless{
+border:0;
+}
+.noBg{
+background:none;
+}
+/* special END*/
+*{
+
+}
+#page-wrapper2-bg,#page-wrapper2,#page-wrapper3,#page-wrapper3-bg,#page-wrapper4,#page-wrapper4-bg{
+display:none;
+top:-1024px;
+
+}
+h1,h2,h3,h4,h5,h6{
+margin-bottom:10px;
+text-shadow: 4px 5px 0px #832012;
+font-family: Comic Sans MS;	
+line-height:1.5em;
+text-shadow: 3px 3px 5px #3e1919;
+}
+
+
+.gameOverText{
+	font-family:Ravie;letter-spacing:.1em;
+	
+}
+.gameOverText h1, .gameOverText h2, .gameOverText h3, .gameOverText h4, .gameOverText h5, .gameOverText h6{
+	text-shadow: 4px 3px 0px #96200f;
+	color:#ffffff;
+	text-shadow: 3px 3px 5px #3e1919;
+
+}
+#gameOverbtn{
+	margin-left:9%;
+	}
+.btn{
+	margin-bottom:10px;
+}
+.btn-warning:focus, .btn-warning:active, .btn-warning.active, .open > .dropdown-toggle.btn-warning{
+	border:0;
+	background:none;
+	background:#ff9000;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0;
+    outline-offset: 0px;
+	
+}
+.btn-choice{
+	padding:2em;
+}
+/* #main-game, #board-game-over, #board-modal-login, #board-modal-register, #board-modal-leaderboard {
+	display:none;
+}*/
+
+/* login page */
+
+#login_popuptext h3, #reg_popuptext h3{
+	font-family: Comic Sans MS;
+	color:#ffffff;
+}
+
+
+#leaderboardTable tr td{
+		padding:.5em;
+		font-family:Comic Sans MS;
+		color:#ffffff;
+		border:0;
+		/*text-shadow: 1px 2px 0px #832012;*/
+		text-shadow: 2px 2px 0px #832012;
+	}
+#leaderboardTable tr  th{
+	font-family:Comic Sans MS;
+	font-size:.7em;
+	/*text-shadow: 4px 5px 0px #832012;*/
+	text-shadow: 2px 2px 0px #832012;
+}
+
+/* for small phones */
+/*@media  (min-width: 320px) and (max-width:767px)*/
+@media (max-width:767px){
+		
+	#page-wrapper,#page-wrapper2,#page-wrapper3,#page-wrapper4{
+		margin:0;
+		margin-top:10%;
+		
+	}
+	.splashScreen img{
+		width:50%;
+		
+	}
+	#main-game, .row{
+		padding:0;
+		margin:0;
+	}
+	.col-lg-12{
+		padding:0;
+	}
+	
+	#btn-play{
+		width:40%;
+	}
+	.board{
+		
+	}
+	
+	.smallFont{
+		/*font-size:12px;*/
+		
+	}
+	.panel-board h1, h3, h4{
+		font-size: 1em;
+		
+	}
+	.panel-board p{
+		font-size:2em;
+		
+		
+	}
+	#rsgTimer{
+		font-size:3em;
+	}
+	
+	#page-wrapper,#page-wrapper2,#page-wrapper3,#page-wrapper4{
+		min-height:480px
+	}
+	
+	.splashImages{
+		margin-top:50%;
+	}
+	.btn-choice{
+		padding:.5em;
+		
+	}
+	
+	h1,h2,h3,h4,h5,h6{
+		margin-bottom:5px;
+		attachment:fixed;
+		font-family: Ravie;	
+		line-height:1.2em;
+		font-size:.8em;
+		
+	}
+	#leaderboardTable tr td{
+		padding:.2em;
+		font-family:Comic Sans MS;
+	}
+	#leaderboardTable tr th{
+	padding:.1em;
+	font-family:Comic Sans MS;
+	}	
+}
+			
+		
+@media  (min-width: 768px) and (max-width:799px){
+		#page-wrapper,#page-wrapper2,#page-wrapper3,#page-wrapper4{
+		margin-top:20%;
+	}
+	.splashImages{
+		margin-top:50%;
+	}
+}
+		
+@media  (min-width: 800px) and (max-width:979px){
+		#page-wrapper,#page-wrapper2,#page-wrapper3,#page-wrapper4{
+		margin-top:35%;
+	}
+	.splashImages{
+		margin-top:50%;
+	}
+
+}
+
+@media (width:980px){
+	#page-wrapper,#page-wrapper2,#page-wrapper3,#page-wrapper4{
+		margin-top:28%;
+	}
+	.splashImages{
+		margin-top:50%;
+	}
+}
+	/* for tablet*/
+	
+
+
+ #main-game, #board-modal-leaderboard {
+	display:none;
+	overflow:visible;
+}
+.plaintxt{
+	font-family: Comix Loud;
+	font-size:.5em;
+	vertical-align:middle;
+}
+.plaintxt i{
+	font-size:3em;
+	vertical-align:middle;
+	background:#832012;
+	padding: .2em;
+	padding-left:.2em;
+	padding-right:.2em;
+	
+}
