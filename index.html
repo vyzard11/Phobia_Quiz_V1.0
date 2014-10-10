@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width height=device-height, initial-scale=1">
     <meta name="description" content="Phobia Quiz">
     <meta name="author" content="Catalyst Coders">
 
@@ -518,7 +518,7 @@
 			$("#login_popuptext").html("<h3>Please Enter Username/Password</h3>");
 		return;
 		}
-			$.getJSON("quiz_online_files/login.php?callback=?",lform.serialize(), function(data)
+			$.getJSON("http://catalyst.esy.es/quiz_online_files/login.php?callback=?",lform.serialize(), function(data)
 			{
 			
 				if (data.allow == "yes")
@@ -576,7 +576,7 @@
 			
 		
 		}else{
-			$.getJSON("quiz_online_files/register_check.php?callback=?",rform.serialize(), function(data)
+			$.getJSON("http://catalyst.esy.es/quiz_online_files/register_check.php?callback=?",rform.serialize(), function(data)
 			{
 			
 				if (data.eexists == "exists")
@@ -591,7 +591,7 @@
 				}
 				else
 				{
-					$.getJSON("quiz_online_files/register_user.php?callback=?",rform.serialize(), function(data)
+					$.getJSON("http://catalyst.esy.es/quiz_online_files/register_user.php?callback=?",rform.serialize(), function(data)
 					{
 						$("#username").val("");
 						$("#uemail").val("");

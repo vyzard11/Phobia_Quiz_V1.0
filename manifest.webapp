@@ -1,0 +1,15 @@
+{
+  "version": "0.1",
+  "name": "Phobia Quiz",
+  "description": "Trivia about different phobias",
+  "launch_path": "/index.html",
+  "icons": {
+    "60": "/icons/Pq-icon_2.png",
+    "128": "/icons/Pq-icon.png"
+  },
+  "developer": {
+    "name": "Catalyst Coders",
+    "url": ""
+  },
+  "default_locale": "en"
+}
