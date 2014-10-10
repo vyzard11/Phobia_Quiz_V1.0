@@ -518,7 +518,11 @@
 			$("#login_popuptext").html("<h3>Please Enter Username/Password</h3>");
 		return;
 		}
+<<<<<<< HEAD
 			$.getJSON("http://catalyst.esy.es/quiz_online_files/login.php?callback=?",lform.serialize(), function(data)
+=======
+			$.getJSON("http://www.catalyst.esy.es/quiz_online_files/login.php?callback=?",lform.serialize(), function(data)
+>>>>>>> origin/master
 			{
 			
 				if (data.allow == "yes")
@@ -576,7 +580,11 @@
 			
 		
 		}else{
+<<<<<<< HEAD
 			$.getJSON("http://catalyst.esy.es/quiz_online_files/register_check.php?callback=?",rform.serialize(), function(data)
+=======
+			$.getJSON("http://www.catalyst.esy.es/quiz_online_files/register_check.php?callback=?",rform.serialize(), function(data)
+>>>>>>> origin/master
 			{
 			
 				if (data.eexists == "exists")
@@ -591,7 +599,11 @@
 				}
 				else
 				{
+<<<<<<< HEAD
 					$.getJSON("http://catalyst.esy.es/quiz_online_files/register_user.php?callback=?",rform.serialize(), function(data)
+=======
+					$.getJSON("http://www.catalyst.esy.es/quiz_online_files/register_user.php?callback=?",rform.serialize(), function(data)
+>>>>>>> origin/master
 					{
 						$("#username").val("");
 						$("#uemail").val("");

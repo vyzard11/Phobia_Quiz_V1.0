@@ -1,5 +1,9 @@
 <?php
+<<<<<<< HEAD
 	$host = "catalyst.esy.es";
+=======
+	$host = "http://www.catalyst.esy.es";
+>>>>>>> origin/master
 	$user = "u449078775_user";
 	$pass = "Shov2014!";
 	$db = "u449078775_db";

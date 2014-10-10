@@ -160,7 +160,11 @@ function getLeaderboard(){
 	
 	var rank = 0;
 	$.ajax({
+<<<<<<< HEAD
 		url: "http://catalyst.esy.es/quiz_online_files/display-leaderboard.php",
+=======
+		url: "http://www.catalyst.esy.es/quiz_online_files/display-leaderboard.php",
+>>>>>>> origin/master
 		type: "GET",
 		dataType: "json",
 		success: function(data){
@@ -202,7 +206,11 @@ function postScoreOnline(){
 	}else {
 		//check if have internet
 		$.ajax({
+<<<<<<< HEAD
 			url: "http://catalyst.esy.es/quiz_online_files/post_score_online.php",
+=======
+			url: "http://www.catalyst.esy.es/quiz_online_files/post_score_online.php",
+>>>>>>> origin/master
 			type: "POST",
 			data: {"user_id":a,"user_username":b,"score":c},
 			success: function(data){
