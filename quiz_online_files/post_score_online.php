@@ -1,8 +1,8 @@
 <?php
-	$host = "localhost";
-	$user = "gcccsorg_phobia";
-	$pass = "Pa$$word10";
-	$db = "gcccsorg_phobia";
+	$host = "http://www.catalyst.esy.es";
+	$user = "u449078775_user";
+	$pass = "Shov2014!";
+	$db = "u449078775_db";
 	
 	
 	

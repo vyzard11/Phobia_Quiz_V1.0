@@ -160,7 +160,7 @@ function getLeaderboard(){
 	
 	var rank = 0;
 	$.ajax({
-		url: "http://www.gcccs.org/catalyst-phobia/display-leaderboard.php",
+		url: "http://www.catalyst.esy.es/quiz_online_files/display-leaderboard.php",
 		type: "GET",
 		dataType: "json",
 		success: function(data){
@@ -202,7 +202,7 @@ function postScoreOnline(){
 	}else {
 		//check if have internet
 		$.ajax({
-			url: "http://www.gcccs.org/catalyst-phobia/post_score_online.php",
+			url: "http://www.catalyst.esy.es/quiz_online_files/post_score_online.php",
 			type: "POST",
 			data: {"user_id":a,"user_username":b,"score":c},
 			success: function(data){
