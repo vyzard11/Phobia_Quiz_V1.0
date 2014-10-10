@@ -1,8 +1,8 @@
 <?php
 	$host = "localhost";
-	$user = "root";
-	$pass = "";
-	$db = "db_quiz";
+	$user = "gcccsorg_phobia";
+	$pass = "Pa$$word10";
+	$db = "gcccsorg_phobia";
 	
 	
 	

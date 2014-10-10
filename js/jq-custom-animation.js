@@ -7,7 +7,7 @@ if(splash == 0){
 	//$("#splashScreen").animate({top:'-3000px'},500);
 	$("#splashScreen").fadeToggle(500);
 	modalToggle();
-	},3000);//5000
+	},5000);//5000
 
 	$(".splashImages").fadeToggle(500);
 	splash = 1;
